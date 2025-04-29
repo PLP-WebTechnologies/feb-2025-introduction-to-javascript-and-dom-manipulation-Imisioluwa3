@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+}
+
+.navbar-container {
+    display: flex;
+    list-style: none;
+}
+
+.navbar-container li a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    padding: 0px 10px 10px;
+    text-align: center;
+}
+
+.works-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  center;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.works {
+    background-image: url("./images/dog.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+}
+
+.works a {
+    text-decoration: none;
+    color: white;
+}
